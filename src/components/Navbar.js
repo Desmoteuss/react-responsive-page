@@ -23,8 +23,8 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-    // window.addEventListener('resize', showButton);
-    // return {window.removeEventListener("resize", showButton)}
+    window.addEventListener('resize', showButton);
+    return { window.removeEventListener(showButton)}
   }, []);
 
 
