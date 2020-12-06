@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import HeroSection from './components/HeroSection';
+import Footer from './components/pages/Footer/Footer';
+
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <HeroSection />
+    
+      <Footer />
     </Router>
   );
 }
